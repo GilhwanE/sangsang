@@ -1,0 +1,26 @@
+.btn-archive {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  gap: 0.5rem;
+  &::before {
+    content: '';
+    width: 2rem;
+    aspect-ratio: 1;
+    background: url(/images/ico_arcnhive.svg) no-repeat center / contain;
+  }
+}
+.btn-calendar {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  gap: 0.5rem;
+  &::before {
+    content: '';
+    width: 2rem;
+    aspect-ratio: 1;
+    background: url(/images/icon_calendar.svg) no-repeat center / contain;
+  }
+}

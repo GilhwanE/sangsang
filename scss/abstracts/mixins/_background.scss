@@ -14,10 +14,10 @@
   }
 
   background: url('#{$imgUrl}#{$filename}') no-repeat $coordinates $color $size;
-  background-size: size;
+  background-size: $size;
 
   @if $option == 'size' {
-    background-size: $value;
+    background-size: $value; // 'contain'이 여기서 적용됨
   } @else if $option == 'origin' {
     background-origin: $value;
   } @else if $option == 'clip' {
